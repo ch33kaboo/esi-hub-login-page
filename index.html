@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EsiHub</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body style="
+display:grid;
+grid-template-rows: 98% 2% ;
+" >
+<div class="flip-card">
+  <div class="allthepage bg">
+    <div class="thefirstCard">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                <div id="first">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1 style="user-select: none;">Welcome&nbsp;to<br><p style="transform: scale(1.3); color: #0087a1;" >EsiHub</p></h1>
+                            </div>
+                        </div>
+                    <p style="user-select: none;">Hello there, welcome to our community.<br>If you are an ESI-SBA student, we have already set up your profile &#128515<br>You just need to enter your academic email address and get the confirmation code.
+                    </p>
+                    <form action="" method="post" name="login">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" style="user-select: none;">Email address</label>
+                                <input type="email" name="email"  class="form-control popopo" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="exampleInputEmail1">Confirmation Code</label>
+                                <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Confirmation Code">
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center" style="color:red" >check your email, you will receive the confirmation code in seconds</p>
+                            </div> -->
+                            <div class="col-md-12 text-center mktnc">
+                                <a type="submit" class=" btn btn-block mybtn btn-primary tx-tfm" style="background-color: #0087a1;"><font style="color: white; user-select: none;">Get confirmation code</font></a>
+                                <div style="color: #666; user-select: none; transform: translateY(5px);">don't share the code with anyone</div>
+                            </div>
+                    </div>
+                </div>
+                <div id="second">
+                    <div class="myform form ">
+                            <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1 >Signup</h1>
+                            </div>
+                            </div>
+                            <form action="#" name="registration">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First Name</label>
+                                <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Last Name</label>
+                                <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center mb-3">
+                                <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                                </div>
+                            </div>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+
+    <!-- here the back of the card -->
+    <div class="thesecondCard">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                <div id="first">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <img src="./esihub logo collection/EsiHub_text-logo_combination.png" style="    max-height: 100%;
+                                max-width: 100%;
+                                user-select: none;">
+                            </div>
+                        </div>
+                    <p style="user-select: none;">We sent you a confirmation code, check your email.<br>Please enter that code down here.
+                    </p>
+                    <form action="" method="post" name="login">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" style="user-select: none;">Confirmation code</label>
+                                <input type="text" class="form-control tbbdmr" id="confirmationCode" aria-describedby="emailHelp" placeholder="Enter Confirmation code">
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="exampleInputEmail1">Confirmation Code</label>
+                                <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Confirmation Code">
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center" style="color:red" >check your email, you will receive the confirmation code in seconds</p>
+                            </div> -->
+                            <div class="col-md-12 text-center ">
+                                <a type="submit" class=" btn btn-block mybtn btn-primary tx-tfm" style="background-color: #0087a1;"><font style="color: white;">LOGIN</font></a>
+                            </div>
+                    </div>
+                </div>
+                <div id="second">
+                    <div class="myform form ">
+                            <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1 >Signup</h1>
+                            </div>
+                            </div>
+                            <form action="#" name="registration">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First Name</label>
+                                <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Last Name</label>
+                                <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center mb-3">
+                                <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                                </div>
+                            </div>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="thisonehere">
+    <div><h3>made&nbsp;with&nbsp;&hearts; by&nbsp;<img src="./esihub logo collection/logo white vector.svg" alt="" style="width: 41px;">&nbsp;EsiHub developement&nbsp;team</h3></div>
+</div>
+
+      <style>
+
+
+        body, html {
+        height: 100%;
+        }
+
+        html, body {margin: 0; height: 100%; overflow: hidden}
+
+        .thisonehere {
+            display: flex;
+            user-select: none;
+    bottom: 10px;
+    color: #ffffff;
+    justify-content: center; 
+    margin-left: 20px;
+    opacity: 0.4;
+    -webkit-transition: color 2s;
+    transition: opacity 1s;
+        }
+
+        .thisonehere:hover {
+            opacity: 1;  
+        }
+
+                  body{
+        padding-top:4.2rem;
+		padding-bottom:4.2rem;
+
+                /* The image used */
+                background-image:url(myimg2.jpg);
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        
+
+        a{
+         text-decoration:none !important;
+         }
+         h1,h2,h3{
+         font-family: 'Kaushan Script', cursive;
+         }
+          .myform{
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		padding: 1rem;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: 1.1rem;
+		outline: 0;
+		max-width: 500px;
+		 }
+         .tx-tfm{
+         text-transform:uppercase;
+         }
+         .mybtn{
+         border-radius:50px;
+         }
+        
+         .login-or {
+         position: relative;
+         color: #aaa;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         }
+         .span-or {
+         display: block;
+         position: absolute;
+         left: 50%;
+         top: -2px;
+         margin-left: -25px;
+         background-color: #fff;
+         width: 50px;
+         text-align: center;
+         }
+         .hr-or {
+         height: 1px;
+         margin-top: 0px !important;
+         margin-bottom: 0px !important;
+         }
+         .google {
+         color:#666;
+         width:100%;
+         height:40px;
+         text-align:center;
+         outline:none;
+         border: 1px solid lightgrey;
+         }
+          form .error {
+         color: #ff0000;
+         }
+         #second{display:none;}
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.allthepage {
+  transition: transform 0.1s;
+  transform-style: preserve-3d;
+}
+
+
+.thefirstCard, .thesecondCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.thesecondCard {
+  transform: rotateY(180deg);
+}
+
+      </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='app.js'></script>
+</body>
+</html>
